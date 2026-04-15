@@ -250,7 +250,7 @@ export default function DigInSportsHomepage() {
                 </a>
               </div>
               <p className="mt-4 max-w-2xl text-lg leading-8 text-white/95">
-                +15714666319
+                admin@diginsports.com   +15714666319
               </p>
             </div>
           </div>
