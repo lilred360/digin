@@ -109,7 +109,6 @@ export default function DigInSportsHomepage() {
                   Email us: <a href="mailto:admin@diginsports.com" className="underline underline-offset-4">admin@diginsports.com</a>
                 </p>
                 <p>
-                  Call us: <a href="tel:+15714666319" className="underline underline-offset-4">5714666319</a>
                 </p>
               </div>
             </div>
@@ -238,18 +237,21 @@ export default function DigInSportsHomepage() {
               </p>
               <div className="mt-8 flex flex-col gap-4 sm:flex-row">
                 <a
-                  href="mailto:info@diginsports.com"
+                  href="mailto:admin@diginsports.com"
                   className="rounded-full border-4 border-slate-900 bg-white px-6 py-3 text-center text-sm font-black text-slate-900 shadow-[4px_4px_0px_0px_rgba(15,23,42,1)] transition hover:translate-y-[1px] hover:shadow-[2px_2px_0px_0px_rgba(15,23,42,1)]"
                 >
                   Email Us
                 </a>
                 <a
-                  href="tel:+18015551234"
+                  href="tel:+15714666319"
                   className="rounded-full border-4 border-slate-900 bg-yellow-300 px-6 py-3 text-center text-sm font-black text-slate-900 shadow-[4px_4px_0px_0px_rgba(15,23,42,1)] transition hover:translate-y-[1px] hover:shadow-[2px_2px_0px_0px_rgba(15,23,42,1)]"
                 >
                   Call Today
                 </a>
               </div>
+              <p className="mt-4 max-w-2xl text-lg leading-8 text-white/95">
+                +15714666319
+              </p>
             </div>
           </div>
         </section>
