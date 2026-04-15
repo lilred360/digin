@@ -1,13 +1,13 @@
 export default function DigInSportsHomepage() {
   const sports = [
     "Soccer",
+    "Football",
     "T-Ball",
-    "Floor Hockey",
     "Golf",
     "Volleyball",
-    "Football",
-    "Track & Field",
+    "Field Hockey",
     "Yoga",
+    "Track & Field",
   ];
 
   const benefits = [
@@ -104,47 +104,13 @@ export default function DigInSportsHomepage() {
               <p className="mt-6 max-w-2xl rounded-[2rem] border-4 border-slate-900 bg-white px-6 py-5 text-lg leading-8 text-slate-700 shadow-[6px_6px_0px_0px_rgba(15,23,42,1)]">
                 <span className="font-bold text-slate-900">DigIn Sports Sports Sampler</span> is a playful multi-sport program for children ages 2–8. Each week spotlights a different sport so kids can build confidence, stay active, and discover what they love.
               </p>
-              <div className="mt-8 flex flex-col gap-4 sm:flex-row">
-                <a
-                  href="#contact"
-                  className="rounded-full border-4 border-slate-900 bg-orange-400 px-7 py-3 text-center text-sm font-black text-white shadow-[4px_4px_0px_0px_rgba(15,23,42,1)] transition hover:translate-y-[1px] hover:shadow-[2px_2px_0px_0px_rgba(15,23,42,1)]"
-                >
-                  Request Program Info
-                </a>
-                <a
-                  href="#sports"
-                  className="rounded-full border-4 border-slate-900 bg-white px-7 py-3 text-center text-sm font-black text-slate-900 shadow-[4px_4px_0px_0px_rgba(15,23,42,1)] transition hover:translate-y-[1px] hover:shadow-[2px_2px_0px_0px_rgba(15,23,42,1)]"
-                >
-                  View Weekly Sports
-                </a>
-              </div>
-              <div className="mt-8 flex flex-wrap gap-3 text-sm font-bold text-slate-700">
-                {seoTopics.map((topic) => (
-                  <div key={topic} className="rounded-full border-2 border-sky-300 bg-white px-4 py-2">
-                    {topic}
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            <div className="flex items-center justify-center">
-              <div className="grid w-full max-w-xl grid-cols-2 gap-4">
-                <div className="rounded-[2rem] border-4 border-slate-900 bg-emerald-300 p-6 shadow-[6px_6px_0px_0px_rgba(15,23,42,1)]">
-                  <div className="text-sm font-black uppercase tracking-[0.14em]">Move</div>
-                  <div className="mt-6 text-3xl font-black">Run, jump, throw, balance</div>
-                </div>
-                <div className="mt-10 rounded-[2rem] border-4 border-slate-900 bg-yellow-300 p-6 shadow-[6px_6px_0px_0px_rgba(15,23,42,1)]">
-                  <div className="text-sm font-black uppercase tracking-[0.14em]">Play</div>
-                  <div className="mt-6 text-3xl font-black">Fun games and exciting weekly themes</div>
-                </div>
-                <div className="rounded-[2rem] border-4 border-slate-900 bg-pink-300 p-6 shadow-[6px_6px_0px_0px_rgba(15,23,42,1)]">
-                  <div className="text-sm font-black uppercase tracking-[0.14em]">Learn</div>
-                  <div className="mt-6 text-3xl font-black">Simple skills for every beginner</div>
-                </div>
-                <div className="mt-10 rounded-[2rem] border-4 border-slate-900 bg-sky-300 p-6 shadow-[6px_6px_0px_0px_rgba(15,23,42,1)]">
-                  <div className="text-sm font-black uppercase tracking-[0.14em]">Grow</div>
-                  <div className="mt-6 text-3xl font-black">Confidence, teamwork, and smiles</div>
-                </div>
+              <div className="mt-8 space-y-2 text-lg font-black text-white">
+                <p>
+                  Email us: <a href="mailto:admin@diginsports.com" className="underline underline-offset-4">admin@diginsports.com</a>
+                </p>
+                <p>
+                  Call us: <a href="tel:+15714666319" className="underline underline-offset-4">5714666319</a>
+                </p>
               </div>
             </div>
           </div>
@@ -261,8 +227,8 @@ export default function DigInSportsHomepage() {
         <section id="contact" className="mx-auto max-w-5xl px-6 py-16 lg:px-8">
           <div className="relative overflow-hidden rounded-[2.5rem] border-4 border-slate-900 bg-orange-400 px-8 py-12 text-white shadow-[8px_8px_0px_0px_rgba(15,23,42,1)] sm:px-12">
             <div className="absolute right-8 top-8 h-24 w-24 rounded-full bg-yellow-300" />
-            <div className="absolute right-20 top-16 h-14 w-20 rounded-full bg-white/95" />
-            <div className="absolute right-8 top-20 h-12 w-16 rounded-full bg-white/95" />
+            <div className="absolute right-20 top-28 h-14 w-20 rounded-full bg-white/95" />
+            <div className="absolute right-8 top-32 h-12 w-16 rounded-full bg-white/95" />
             <div className="relative">
               <h2 className="text-4xl font-black tracking-tight sm:text-5xl">
                 Ready to bring Sports Sampler to your kids?
