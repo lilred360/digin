@@ -106,7 +106,7 @@ export default function DigInSportsHomepage() {
               </p>
               <div className="mt-8 space-y-2 text-lg font-black text-white">
                 <p>
-                  Email us: <a href="mailto:admin@diginsports.com" className="underline underline-offset-4">admin@diginsports.com</a>
+              
                 </p>
                 <p>
                 </p>
@@ -250,7 +250,10 @@ export default function DigInSportsHomepage() {
                 </a>
               </div>
               <p className="mt-4 max-w-2xl text-lg leading-8 text-white/95">
-                admin@diginsports.com   +15714666319
+                admin@diginsports.com 
+              </p>
+              <p className="mt-4 max-w-2xl text-lg leading-8 text-white/95">
+                +15714666319
               </p>
             </div>
           </div>
