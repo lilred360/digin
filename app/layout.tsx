@@ -15,7 +15,7 @@ const fredoka = Fredoka({
 export const metadata: Metadata = {
   title: 'DigIn Sports | Fun Youth Sports Adventures',
   description:
-    'DigIn Sports brings colorful, active, child-friendly multi-sport experiences to children ages 2-8 while keeping information clear for parents and partners.',
+    'DigIn Sports brings playful youth sports programs to children ages 2-8 with a colorful, kid-friendly website that still works clearly for parents and schools.',
   keywords: [
     'youth sports programs',
     'kids sports classes',
@@ -27,14 +27,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'DigIn Sports | Fun Youth Sports Adventures',
     description:
-      'A colorful multi-page sports site for children ages 2-8, designed to delight kids and inform parents.',
+      'A bright, cloud-filled sports site for children ages 2-8, designed to delight kids and inform parents.',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'DigIn Sports | Fun Youth Sports Adventures',
     description:
-      'A colorful multi-page sports site for children ages 2-8, designed to delight kids and inform parents.',
+      'A bright, cloud-filled sports site for children ages 2-8, designed to delight kids and inform parents.',
   },
 };
 
