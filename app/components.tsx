@@ -33,7 +33,7 @@ export function SiteHeader() {
                 DigIn Sports
               </div>
               <div className="mt-1 text-[11px] font-black uppercase tracking-[0.28em] text-orange-500">
-                Play. Learn. Cheer.
+                'Dig In' to The World of Sports!
               </div>
             </Link>
 
