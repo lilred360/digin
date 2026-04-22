@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #99e7ff;
+  --background: #2ca4ec;
   --foreground: #0f172a;
 }
 
@@ -28,50 +28,4 @@ body {
 
 a {
   text-decoration: none;
-}
-
-@keyframes float-slow {
-  0%,
-  100% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(-16px);
-  }
-}
-
-@keyframes float-medium {
-  0%,
-  100% {
-    transform: translateY(0px) translateX(0px);
-  }
-  50% {
-    transform: translateY(-12px) translateX(8px);
-  }
-}
-
-@keyframes bobble {
-  0%,
-  100% {
-    transform: rotate(0deg) translateY(0px);
-  }
-  50% {
-    transform: rotate(8deg) translateY(-8px);
-  }
-}
-
-.animate-float-slow {
-  animation: float-slow 8s ease-in-out infinite;
-}
-
-.animate-float-medium {
-  animation: float-medium 6s ease-in-out infinite;
-}
-
-.animate-bobble {
-  animation: bobble 5s ease-in-out infinite;
-}
-
-.animate-bobble-delayed {
-  animation: bobble 5.5s ease-in-out 0.7s infinite;
 }
