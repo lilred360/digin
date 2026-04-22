@@ -1,112 +1,134 @@
-export const sports = [
+export const sportsWeeks = [
   {
+    week: 'Week 1',
     name: 'Soccer',
-    blurb: 'Big kicks, quick feet, and easy movement games that build balance and coordination.',
-    color: 'from-lime-300 to-emerald-300',
+    icon: 'soccer',
+    badgeClass: 'bg-green-500',
+    textClass: 'text-green-600',
   },
   {
+    week: 'Week 2',
     name: 'Football',
-    blurb: 'Soft equipment and playful drills help kids run, aim, and celebrate every try.',
-    color: 'from-orange-300 to-amber-300',
+    icon: 'football',
+    badgeClass: 'bg-sky-500',
+    textClass: 'text-sky-700',
   },
   {
+    week: 'Week 3',
     name: 'T-Ball',
-    blurb: 'Early batting and throwing skills are introduced through simple steps and lots of cheering.',
-    color: 'from-pink-300 to-rose-300',
+    icon: 'tball',
+    badgeClass: 'bg-orange-400',
+    textClass: 'text-orange-500',
   },
   {
+    week: 'Week 4',
     name: 'Golf',
-    blurb: 'Kids practice control, focus, and gentle swings through approachable mini-golf style activities.',
-    color: 'from-cyan-300 to-sky-300',
+    icon: 'golf',
+    badgeClass: 'bg-green-600',
+    textClass: 'text-green-700',
   },
   {
+    week: 'Week 5',
     name: 'Volleyball',
-    blurb: 'Tossing, catching, and teamwork games make this sport feel energetic and approachable.',
-    color: 'from-violet-300 to-fuchsia-300',
+    icon: 'volleyball',
+    badgeClass: 'bg-violet-500',
+    textClass: 'text-violet-600',
   },
   {
+    week: 'Week 6',
     name: 'Field Hockey',
-    blurb: 'Children learn to guide movement and direction with safe, scaled equipment.',
-    color: 'from-yellow-300 to-orange-300',
+    icon: 'hockey',
+    badgeClass: 'bg-pink-500',
+    textClass: 'text-pink-500',
   },
   {
+    week: 'Week 7',
     name: 'Yoga',
-    blurb: 'Breathing, stretching, and silly poses support calm confidence and body awareness.',
-    color: 'from-teal-300 to-cyan-300',
+    icon: 'yoga',
+    badgeClass: 'bg-cyan-500',
+    textClass: 'text-cyan-600',
   },
   {
-    name: 'Track and Field',
-    blurb: 'Running, jumping, and racing games channel energy into active fun and simple goals.',
-    color: 'from-red-300 to-pink-300',
-  },
-];
-
-export const highlightCards = [
-  {
-    title: 'A new adventure every week',
-    text: 'Children stay curious because every class spotlights a different sport, new motions, and new equipment.',
-  },
-  {
-    title: 'Made for ages 2-8',
-    text: 'Activities are scaled for young learners with short instructions, lots of encouragement, and movement-first fun.',
-  },
-  {
-    title: 'Easy for grown-ups too',
-    text: 'Parents and partner programs get clear communication, organized scheduling, and a program that is simple to understand.',
+    week: 'Week 8',
+    name: 'Track & Field',
+    icon: 'track',
+    badgeClass: 'bg-yellow-400',
+    textClass: 'text-yellow-500',
   },
 ];
 
-export const programFeatures = [
-  'Weekly multi-sport enrichment',
-  'Confidence-building first sports experiences',
-  'Great for schools, daycares, and family programs',
-  'Playful lessons with clear structure',
+export const benefits = [
+  {
+    title: 'Builds Confidence',
+    text: 'Kids try new skills and grow stronger each week.',
+    icon: 'run',
+    accentClass: 'text-sky-600',
+  },
+  {
+    title: 'Encourages Friendships',
+    text: 'Team activities help kids connect and have fun.',
+    icon: 'friends',
+    accentClass: 'text-green-600',
+  },
+  {
+    title: 'Promotes A Healthy Lifestyle',
+    text: 'Active kids today, healthy leaders tomorrow.',
+    icon: 'heart',
+    accentClass: 'text-orange-500',
+  },
+  {
+    title: 'All About Fun!',
+    text: 'Positive, supportive, and age-appropriate for every child.',
+    icon: 'smile',
+    accentClass: 'text-violet-500',
+  },
 ];
 
-export const programSteps = [
+export const parentHighlights = [
+  'Youth sports programs for kids ages 2-8',
+  'Multi-sport classes that keep kids active and excited',
+  'A playful weekly format that is easy for parents and schools to understand',
+];
+
+export const programPoints = [
   {
-    step: '01',
-    title: 'Pick a day',
-    text: 'Choose a weekly time that works for your group and your regular routine.',
+    title: 'A new sport every week',
+    text: 'Fresh equipment, fresh skills, and fresh excitement keep kids eager to come back.',
   },
   {
-    step: '02',
-    title: 'Bring the fun',
-    text: 'DigIn arrives with a plan, age-appropriate equipment, and an upbeat class flow.',
+    title: 'Simple for grown-ups',
+    text: 'Families and program leaders get clear messaging, dependable structure, and a fun experience.',
   },
   {
-    step: '03',
-    title: 'Watch kids explore',
-    text: 'Children try, learn, laugh, and grow more confident as they discover new sports.',
+    title: 'Designed for early learners',
+    text: 'Classes are upbeat, supportive, and scaled for young children who are just getting started.',
   },
 ];
 
 export const aboutPoints = [
   {
-    title: 'We love first sports memories',
-    text: 'DigIn Sports is built around the idea that early sports experiences should feel joyful, encouraging, and full of discovery.',
+    title: 'Joy comes first',
+    text: 'We want children to connect sports with excitement, discovery, and encouragement.',
   },
   {
-    title: 'We make movement feel welcoming',
-    text: 'Not every child arrives ready to compete. Our approach helps kids participate, experiment, and feel proud of trying.',
+    title: 'Movement should feel welcoming',
+    text: 'DigIn creates space for kids to try, learn, and smile without pressure.',
   },
   {
-    title: 'We support both kids and adults',
-    text: 'The program is playful for children while staying clear and dependable for parents, schools, and care teams.',
+    title: 'Parents need clarity too',
+    text: 'The site and the program are both designed to feel fun for children and easy to understand for adults.',
   },
 ];
 
-export const contactOptions = [
+export const contactDetails = [
   {
-    label: 'Email',
+    label: 'Email us',
     value: 'admin@diginsports.com',
     href: 'mailto:admin@diginsports.com',
-    action: 'Send a message',
   },
   {
-    label: 'Phone',
-    value: '(571) 466-6319',
+    label: 'Call us',
+    value: '5714666319',
     href: 'tel:+15714666319',
-    action: 'Give us a call',
   },
 ];
