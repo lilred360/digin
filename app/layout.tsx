@@ -1,39 +1,40 @@
 import type { Metadata } from 'next';
-import { Fraunces, Manrope } from 'next/font/google';
+import { Fredoka, Nunito } from 'next/font/google';
 import './globals.css';
 
-const manrope = Manrope({
+const nunito = Nunito({
   subsets: ['latin'],
   variable: '--font-sans',
 });
 
-const fraunces = Fraunces({
+const fredoka = Fredoka({
   subsets: ['latin'],
   variable: '--font-display',
 });
 
 export const metadata: Metadata = {
-  title: 'DigIn Sports | Youth Sports Enrichment Programs',
+  title: 'DigIn Sports | Fun Youth Sports Adventures',
   description:
-    'DigIn Sports offers structured multi-sport enrichment programs for children ages 2-8, designed for families, schools, daycares, and preschools.',
+    'DigIn Sports brings colorful, active, child-friendly multi-sport experiences to children ages 2-8 while keeping information clear for parents and partners.',
   keywords: [
     'youth sports programs',
     'kids sports classes',
     'multi-sport classes',
     'daycare enrichment',
     'preschool sports',
+    'fun kids activities',
   ],
   openGraph: {
-    title: 'DigIn Sports | Youth Sports Enrichment Programs',
+    title: 'DigIn Sports | Fun Youth Sports Adventures',
     description:
-      'Structured multi-sport experiences for children ages 2-8, built for families and partner programs.',
+      'A colorful multi-page sports site for children ages 2-8, designed to delight kids and inform parents.',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'DigIn Sports | Youth Sports Enrichment Programs',
+    title: 'DigIn Sports | Fun Youth Sports Adventures',
     description:
-      'Structured multi-sport experiences for children ages 2-8, built for families and partner programs.',
+      'A colorful multi-page sports site for children ages 2-8, designed to delight kids and inform parents.',
   },
 };
 
@@ -44,7 +45,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${manrope.variable} ${fraunces.variable}`}>{children}</body>
+      <body className={`${nunito.variable} ${fredoka.variable}`}>{children}</body>
     </html>
   );
 }
